@@ -5,7 +5,7 @@ const generator = require('generate-password');
 exports.run = function(client, message, args) {
     var uzunluk = args.slice(0).join(' ');
 
-    if (!uzunluk) return message.reply('Bir uzunluk belirt. **Doðru Kullaným**: ?þifre <uzunluk>')
+    if (!uzunluk) return message.reply('Bir uzunluk belirt. **DoÄŸru KullanÄ±m**: -ÅŸifre <uzunluk>')
 
 
 
@@ -25,7 +25,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'þifre', 
-  description: 'Rastgele bir þifre oluþturur.',
-  usage: 'þifre <uzunluk>'
+  name: 'ÅŸifre', 
+  description: 'Rastgele bir Ã¾ifre oluÃ¾turur.',
+  usage: 'ÅŸifre <uzunluk>'
 };
