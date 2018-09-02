@@ -26,6 +26,6 @@ exports.conf = {
 
 exports.help = {
   name: 'şifre', 
-  description: 'Rastgele bir þifre oluþturur.',
+  description: 'Rastgele bir şifre oluşturur.',
   usage: 'şifre <uzunluk>'
 };
